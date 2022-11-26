@@ -1,0 +1,47 @@
+#container {
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+input{
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 5px;
+
+}
+ul ::-webkit-scrollbar {
+    margin-left: -25px;
+    height: 25px;
+}
+ul li {
+    list-style-type: none;
+    color: black;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+#contactList {
+    color: cadetblue;
+    font-size: 25px;
+}
+
+form {
+    margin-top: 185px;
+}
+
+button {
+    width: 100%;
+    color: aliceblue;
+    background-color: cadetblue;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
